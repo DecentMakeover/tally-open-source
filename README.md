@@ -2,6 +2,8 @@
 
 **Open-source, keyboard-first double-entry accounting for Indian businesses, with GST built in.**
 
+An open-source alternative to TallyPrime-style desktop accounting: if you've used Tally, the Gateway, the F-key voucher entry and the Day Book will feel familiar.
+
 Bahi (from *bahi-khata*, the traditional ledger book) gives small traders, shops and accountants the everyday workflow of desktop accounting software: a Gateway, voucher entry on function keys, Day Book, Trial Balance, P&L, Balance Sheet, stock and GST. It's free, MIT-licensed, and your books stay in plain SQLite files on your own computer.
 
 ![Sales voucher with live GST computation](docs/sales-voucher.png)
@@ -28,7 +30,7 @@ Bahi (from *bahi-khata*, the traditional ledger book) gives small traders, shops
 Requires Python 3.10+.
 
 ```bash
-pip install git+https://github.com/ryanatgalen/bahi
+pip install git+https://github.com/ryanatgalen/tally-open-source
 bahi            # starts at http://127.0.0.1:8642 and opens your browser
 ```
 
@@ -89,7 +91,7 @@ Amounts are sent and returned as decimal strings in rupees (`"1234.50"`).
 ## Development
 
 ```bash
-git clone https://github.com/ryanatgalen/bahi && cd bahi
+git clone https://github.com/ryanatgalen/tally-open-source && cd tally-open-source
 python -m venv .venv && . .venv/bin/activate
 pip install -e '.[dev]'
 pytest
@@ -127,7 +129,7 @@ Contributions are welcome. Good next steps:
 
 ## Disclaimer
 
-Bahi is an independent open-source project. It is not affiliated with, endorsed by, or derived from any commercial accounting software. It is provided as is, without warranty. Check its output with your accountant.
+Bahi is an independent open-source project. It is not affiliated with or endorsed by Tally Solutions Pvt. Ltd., and it contains no code from TallyPrime or any other commercial accounting software. "Tally" and "TallyPrime" are trademarks of their owner and are used here only to describe what Bahi is an alternative to. It is provided as is, without warranty. Check its output with your accountant.
 
 ## License
 
