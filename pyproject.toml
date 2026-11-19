@@ -25,8 +25,8 @@ dependencies = ["fastapi>=0.110", "uvicorn>=0.27"]
 dev = ["pytest>=8", "httpx>=0.27", "ruff>=0.5"]
 
 [project.urls]
-Repository = "https://github.com/ryanatgalen/tally-open-source"
-Issues = "https://github.com/ryanatgalen/tally-open-source/issues"
+Repository = "https://github.com/DecentMakeover/tally-open-source"
+Issues = "https://github.com/DecentMakeover/tally-open-source/issues"
 
 [project.scripts]
 bahi = "bahi.cli:main"

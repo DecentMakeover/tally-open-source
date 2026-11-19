@@ -30,7 +30,7 @@ Bahi (from *bahi-khata*, the traditional ledger book) gives small traders, shops
 Requires Python 3.10+.
 
 ```bash
-pip install git+https://github.com/ryanatgalen/tally-open-source
+pip install git+https://github.com/DecentMakeover/tally-open-source
 bahi            # starts at http://127.0.0.1:8642 and opens your browser
 ```
 
@@ -91,7 +91,7 @@ Amounts are sent and returned as decimal strings in rupees (`"1234.50"`).
 ## Development
 
 ```bash
-git clone https://github.com/ryanatgalen/tally-open-source && cd tally-open-source
+git clone https://github.com/DecentMakeover/tally-open-source && cd tally-open-source
 python -m venv .venv && . .venv/bin/activate
 pip install -e '.[dev]'
 pytest
