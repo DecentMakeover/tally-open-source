@@ -1,0 +1,21 @@
+README.md
+  s_772c0edcd8a58b::t_883237ca955f34 5-6,33,94,132
+pyproject.toml
+  s_772c0edcd8a58b::t_89f7779f22e30c 27-30
+---
+{
+  "schema_version": "authorship/3.0.0",
+  "git_ai_version": "1.7.5",
+  "base_commit_sha": "20be73a5bfddb4924e0e3a9695a875a3efe5181a",
+  "prompts": {},
+  "sessions": {
+    "s_772c0edcd8a58b": {
+      "agent_id": {
+        "tool": "claude",
+        "id": "5f44263c-2204-4751-8d84-90a3ea4d1458",
+        "model": "unknown"
+      },
+      "human_author": "Ryan Dsouza <25679895+DecentMakeover@users.noreply.github.com>"
+    }
+  }
+}
