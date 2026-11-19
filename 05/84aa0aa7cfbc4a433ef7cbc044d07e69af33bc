@@ -1,0 +1,21 @@
+README.md
+  s_772c0edcd8a58b::t_b07d1f319d0897 33,94
+pyproject.toml
+  s_772c0edcd8a58b::t_8128ae4d3d022d 28-29
+---
+{
+  "schema_version": "authorship/3.0.0",
+  "git_ai_version": "1.7.5",
+  "base_commit_sha": "0584aa0aa7cfbc4a433ef7cbc044d07e69af33bc",
+  "prompts": {},
+  "sessions": {
+    "s_772c0edcd8a58b": {
+      "agent_id": {
+        "tool": "claude",
+        "id": "5f44263c-2204-4751-8d84-90a3ea4d1458",
+        "model": "claude-opus-5-5"
+      },
+      "human_author": "Ryan Dsouza <rayan.dsouza@publicissapient.com>"
+    }
+  }
+}
